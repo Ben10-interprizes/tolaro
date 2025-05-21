@@ -2,7 +2,7 @@ services:
   - type: web
     name: appsmith-backend
     env: docker
-    dockerfilePath: backend/Dockerfile
+    dockerfilePath: Dockerfile
     buildCommand: ""
     startCommand: ""
     branch: main
