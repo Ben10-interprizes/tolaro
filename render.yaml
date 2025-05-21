@@ -2,10 +2,8 @@ services:
   - type: web
     name: appsmith-backend
     env: docker
-    dockerfilePath: backend/Dockerfile   # Path to Dockerfile, relative to repo root
+    dockerfilePath: backend/Dockerfile
     buildCommand: ""
     startCommand: ""
     branch: main
     autoDeploy: true
-    # Add this line:
-    buildContext: backend                # <-- Add this
